@@ -2,21 +2,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #78e8f0;
 }
 
-#ordinateur {
-    text-align: right;
-    
-}
-
-#joueur {
-    text-align: center;
-}
-.col {
-    height: 70vh;
-    border: 1px solid black;
-}
-
-.btn-primary {
-    align-items: center;
-}
