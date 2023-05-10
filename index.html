@@ -13,6 +13,7 @@
     
     <div class="row">
         <div class="col d-flex justify-content-center">
+            <div>
             <h2 id="joueur">Joueur</h2>
             <div class="btn-group mt-5" role="group" aria-label="Basic radio toggle button group">
                 <input type="radio" class="btn-check m-auto" name="btnradio" value="1" id="btnradio1" autocomplete="off">
@@ -24,14 +25,23 @@
                 <input type="radio" class="btn-check" name="btnradio" value="3" id="btnradio3" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio3">Ciseaux</label>
             </div> 
-            <div>
-                <button type="button" class="btn btn-primary mt-5" id="reset">Reset</button>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mt-5 " id="reset">Reset</button>
             </div>
         </div>
-        <div class="col">
+        
+        </div><div class="col d-flex justify-content-center">
+            <div id="score">
+                
+            </div>
+            <div id="resultat">
+                
+            </div>
+        </div>
+        <div class="col  d-flex justify-content-center">
             <div>
                 <h2 id="ordinateur">Ordinateur</h2>
-                <button type="button" class="btn btn-secondary mt-5" id="play">Play</button> 
+                <button type="button" class="btn btn-secondary mt-5 d-flex justify-content-center" id="play">Play</button> 
             </div>
         </div>
     </div>

@@ -9,11 +9,9 @@ body {
     
 }
 
-#verify {
-    align-items: center;
+#joueur {
+    text-align: center;
 }
-
 .col {
     border: 1px solid black;
 }
-
