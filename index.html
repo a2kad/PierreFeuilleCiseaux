@@ -12,29 +12,26 @@
 <body>
     
     <div class="row">
-        <div class="col">
+        <div class="col d-flex justify-content-center">
             <h2 id="joueur">Joueur</h2>
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <div class="btn-group mt-5" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check m-auto" name="btnradio" value="1" id="btnradio1" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio1">Pierre</label>
           
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <input type="radio" class="btn-check" name="btnradio" value="2" id="btnradio2" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio2">Feuille</label>
           
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <input type="radio" class="btn-check" name="btnradio" value="3" id="btnradio3" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio3">Ciseaux</label>
-            </div>
+            </div> 
             <div>
-                <button type="button" class="btn btn-success" id="verify">Ok</button>
-            </div>
-            <div>
-                <button type="button" class="btn btn-primary" id="reset">Reset</button>
+                <button type="button" class="btn btn-primary mt-5" id="reset">Reset</button>
             </div>
         </div>
         <div class="col">
             <div>
                 <h2 id="ordinateur">Ordinateur</h2>
-                <button type="button" class="btn btn-secondary" id="play">Play</button> 
+                <button type="button" class="btn btn-secondary mt-5" id="play">Play</button> 
             </div>
         </div>
     </div>

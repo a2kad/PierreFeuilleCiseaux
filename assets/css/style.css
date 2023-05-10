@@ -9,12 +9,11 @@ body {
     
 }
 
-#joueur {
-    text-align: left;
+#verify {
+    align-items: center;
 }
 
-#play {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+.col {
+    border: 1px solid black;
 }
+
