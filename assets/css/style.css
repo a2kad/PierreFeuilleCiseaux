@@ -4,6 +4,17 @@ body {
     padding: 0;
 }
 
-.btn .btn-secondary {
-    text-align: center;
+#ordinateur {
+    text-align: right;
+    
+}
+
+#joueur {
+    text-align: left;
+}
+
+#play {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
