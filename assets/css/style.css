@@ -13,5 +13,10 @@ body {
     text-align: center;
 }
 .col {
+    height: 70vh;
     border: 1px solid black;
+}
+
+.btn-primary {
+    align-items: center;
 }
