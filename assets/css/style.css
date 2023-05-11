@@ -5,3 +5,24 @@ body {
     background-color: #78e8f0;
 }
 
+
+#ordinateur {
+    display: flex;
+    background-color: #fff;
+    width: 145px;
+    height: 100px;
+    justify-content: flex-end;
+}
+.btn-group {
+    background-color: #fff;
+    margin: 15px;
+    padding: 10px;
+    
+}
+ .start {
+    text-align: right;
+    margin: 20px;
+}
+
+
+
