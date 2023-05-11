@@ -27,9 +27,14 @@ h2 {
  .start {
     display: flex;
     flex-direction: row-reverse;
-    text-align: end;
-    align-items: flex-end;
-    margin: 20px;
+    margin: 80px;
+}
+
+#computer {
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    
 }
 
 
