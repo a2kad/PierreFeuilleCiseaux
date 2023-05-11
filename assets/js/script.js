@@ -12,8 +12,6 @@ let computerGame = ''
 let myScoreCount = 0
 let computerScoreCount = 0
 
-
-
 radioButtons.forEach(element => {
     element.addEventListener('click', function () {
         if (element.value == 1) {
@@ -34,8 +32,11 @@ reset.addEventListener('click', function () {
     let computerGame = ''
     joueur.innerText = 'Joueur'
     ordinateur.innerText = 'Ordinateur'
-    let myScore = 0
-    let computerScore = 0
+    let myScoreCount = 0
+    let computerScoreCount = 0
+    myScore.innerText = myScoreCount
+    computerScore.innerText = computerScoreCount
+    resultat.innerText = 'Sélectionnez un élément et appuyez sur play'
 })
 
 play.addEventListener('click', function () {
@@ -57,27 +58,17 @@ play.addEventListener('click', function () {
         resultat.innerText = 'GAGNE'
         myScoreCount++
         myScore.innerText = myScoreCount
-        
+
     } else if ((myGame == 'pierre' && computerGame == 'feuille') || (myGame == 'ciseaux' && computerGame == 'pierre') || (myGame == 'feuille' && computerGame == 'ciseaux')) {
         resultat.innerText = 'PERDU'
         computerScoreCount++
         computerScore.innerText = computerScoreCount
     } else if (myGame == '') {
         resultat.innerText = 'Choisir un élément'
-        
+
     }
 })
 
 function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min)) + min
 }
-/*                <!--Moi cod --- UDALIT POTOM -->
-                <p>My Score :</p>
-                <div class="myScore">
-0
-                </div>
-                <p>Computer Score :</p>
-                <div class="computerScore">
-0
-                </div>
-                <!--Moi cod --- UDALIT POTOM -->*/
