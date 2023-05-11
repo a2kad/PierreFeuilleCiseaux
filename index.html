@@ -12,31 +12,38 @@
 </head>
 
 <body>
-
+<div class="container">
     <div class="row">
         <div class="col">
             <h2 id="joueur"></h2>
             <h2 id="ordinateur">Ordinateur</h2>
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <div class="btn-group-vertical" role="group" aria-label="Basic radio toggle button group">
                 <input type="radio" class="btn-check" name="btnradio" value="1" id="btnradio1" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio1"><img src="assets/img/stone.png" width=50px
+                <label class="btn btn-outline-primary p-4" for="btnradio1"><img src="assets/img/stone.png" width=50px
                         height=50px alt=""></label>
-
+                    
                 <input type="radio" class="btn-check" name="btnradio" value="2" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio2"><img src="assets/img/paper.png" width=50px
+                <label class="btn btn-outline-primary p-4" for="btnradio2"><img src="assets/img/paper.png" width=50px
                         height=50px alt=""></label>
 
                 <input type="radio" class="btn-check" name="btnradio" value="3" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio3"><img src="assets/img/scissors.png" width=50px
+                <label class="btn btn-outline-primary p-4" for="btnradio3"><img src="assets/img/scissors.png" width=50px
                         height=50px alt=""></label>
             </div>
+
+        </div>
+        <div class="col">
+            <p>My Score :</p>
+                <div id="myScore">0</div>
+                <p>Computer Score</p>
+                <div id="computerScore">0</div><br>
+                <div id="resultat">Sélectionnez un élément et appuyez sur play</div>
             <div class="rese d-flex justify-content-center">
                 <button type="button" class="btn btn-primary mt-5" id="reset">Reset</button>
             </div>
         </div>
-        <div class="col"></div>
 
-<!-- =======START Col 3======= -->
+        <!-- =======START Col 3======= -->
 
         <div class="col">
             <div class="start">
@@ -48,9 +55,8 @@
         </div>
         
 <!-- =======END Col 3======= -->
-        
     </div>
-
+</div>
 
 
 
