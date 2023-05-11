@@ -4,7 +4,15 @@ body {
     padding: 0;
     background-color: #12BAC5;
 }
-
+.row{
+    height: 100vh;
+}
+.btnGame{
+    margin: 40px 0;
+}
+.btnGame img{
+    width: 180px;
+}
 h2 {
     text-align: center;
 }
