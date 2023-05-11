@@ -14,18 +14,21 @@ h2 {
     border: 1px solid black;
     width: 160px;
     height: 100px;
-    align-content: center;
+    text-align: right;
 }
 .btn-group {
     display: inline-flex;
     background-color: #fff;
     margin: 15px;
     padding: 10px;
-    vertical-align: middle;
+    
     
 }
  .start {
-    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    align-items: flex-end;
     margin: 20px;
 }
 
