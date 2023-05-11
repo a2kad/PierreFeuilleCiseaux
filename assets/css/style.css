@@ -11,9 +11,10 @@ h2 {
 #ordinateur {
     display: flex;
     background-color: #fff;
-    width: 145px;
+    border: 1px solid black;
+    width: 160px;
     height: 100px;
-    align-content: flex-end;
+    align-content: center;
 }
 .btn-group {
     display: inline-flex;
