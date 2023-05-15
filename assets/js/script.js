@@ -43,24 +43,25 @@ play.addEventListener('click', function () {
     let randomGame = randomInteger(1, 4)
     if (randomGame == 1) {
         computerGame = 'pierre'
-        ordinateur.innerText = computerGame
+        ordinateur.innerHTML = '<img src="assets/img/stone.png" alt="Stone">'
+
     } else if (randomGame == 2) {
         computerGame = 'feuille'
-        ordinateur.innerText = computerGame
+        ordinateur.innerHTML = '<img src="assets/img/scissors.png" alt="Scissors">'
     } else if (randomGame == 3) {
         computerGame = 'ciseaux'
-        ordinateur.innerText = computerGame
+        ordinateur.innerHTML = '<img src="assets/img/paper.png" alt="Paper">'
     }
 
     if (computerGame == myGame) {
-        resultat.innerText = "EGALITE"
+        resultat.innerHTML = '<img class="resultatImg" src="assets/img/equal.png" alt="Paper">'
     } else if ((myGame == 'pierre' && computerGame == 'ciseaux') || (myGame == 'ciseaux' && computerGame == 'feuille') || (myGame == 'feuille' && computerGame == 'pierre')) {
-        resultat.innerText = 'GAGNE'
+        resultat.innerHTML = '<img class="resultatImg" src="assets/img/champion.png" alt="Paper">'
         myScoreCount++
         myScore.innerText = myScoreCount
 
     } else if ((myGame == 'pierre' && computerGame == 'feuille') || (myGame == 'ciseaux' && computerGame == 'pierre') || (myGame == 'feuille' && computerGame == 'ciseaux')) {
-        resultat.innerText = 'PERDU'
+        resultat.innerHTML = '<img class="resultatImg" src="assets/img/dislike.png" alt="Paper">'
         computerScoreCount++
         computerScore.innerText = computerScoreCount
     } else if (myGame == '') {
